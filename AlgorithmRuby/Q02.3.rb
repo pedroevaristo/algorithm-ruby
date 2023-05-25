@@ -4,3 +4,6 @@
 # do elemento resultante
 
 Numbers = {a:10,b:30,c:20,d:25,e:15}
+
+resultN = Numbers.sort_by{|p1, p2| p2}
+puts "#{resultN}"
